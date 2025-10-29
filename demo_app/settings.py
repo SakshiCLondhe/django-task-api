@@ -17,8 +17,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework',  # for API
-    'tasks',  # ✅ your app must be listed here
+    'rest_framework', 
+    'tasks',  
 ]
 
 

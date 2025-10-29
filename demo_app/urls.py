@@ -1,9 +1,9 @@
 from django.contrib import admin
 from django.urls import path, include
-from tasks import views  # import your home view
+from tasks import views  
 
 urlpatterns = [
-    path('', views.home, name='home'),  # Homepage
+    path('', views.home, name='home'),  
     path('admin/', admin.site.urls),
-    path('api/', include('tasks.urls')),  # All task-related APIs
+    path('api/', include('tasks.urls')),  
 ]
