@@ -23,7 +23,7 @@ This project is a Django-based web application for managing and generating part 
    git clone https://github.com/SakshiCLondhe/django-task-api.git
    cd django-task-api
 ## Live Demo
-🌐 [View Live Website](https://django-task-api.onrender.com)
+🌐 [View Live Website](https://django-task-api-dpeg.onrender.com)
 
 ## GitHub Repository
 📦 [GitHub Repo](https://github.com/SakshiCLondhe/django-task-api)
