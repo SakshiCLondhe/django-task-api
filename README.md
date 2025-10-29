@@ -1,24 +1,24 @@
-# 🧩 Django Full Stack Demo App
+# Django Part Code System
 
-A sample **Full Stack Developer Demo Project** built with:
-- Django + REST Framework (Backend)
-- PostgreSQL (Supabase)
-- Chart.js (Frontend Visualization)
-- Third-party API Integration (RandomUser API)
-
----
+This project is a Django-based web application for managing and generating part codes, uploading Excel files, and tracking part details.
 
 ## 🚀 Features
-✅ CRUD (Create, Read, Update, Delete) Tasks  
-✅ REST API Architecture  
-✅ PostgreSQL Database (Supabase)  
-✅ RandomUser API Integration  
-✅ Task Analytics Chart (Pie Chart View)  
+- Generate unique part codes automatically.
+- Upload Excel files and insert data column-wise.
+- Fetch existing part data and skip duplicates.
+- Integrate with Google Sheets for sharing.
+- Track creation date and history.
 
----
+## 🛠️ Tech Stack
+- **Backend:** Django 5.2.7
+- **Database:** PostgreSQL
+- **Hosting:** Render
+- **Server:** Gunicorn
+- **Environment Management:** python-dotenv
 
 ## ⚙️ Installation
-```bash
-git clone https://github.com/YOUR_USERNAME/demo_app.git
-cd demo_app
-pip install -r requirements.txt
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/SakshiCLondhe/django-task-api.git
+   cd django-task-api
