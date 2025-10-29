@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Completion Chart</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f9f9f9;
+            text-align: center;
+            margin-top: 60px;
+        }
+        canvas {
+            width: 400px !important;
+            height: 400px !important;
+            margin: 0 auto;
+        }
+        h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h2>Task Completion Overview 📊</h2>
+    <canvas id="taskChart"></canvas>
+
+    <script>
+    const ctx = document.getElementById('taskChart');
+    new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ['Completed', 'Pending'],
+            datasets: [{
+                data: [{{ completed }}, {{ pending }}],
+                backgroundColor: ['#4CAF50', '#FF6384'],
+            }]
+        }
+    });
+    </script>
+</body>
+</html>
