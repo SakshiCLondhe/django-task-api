@@ -27,3 +27,5 @@ This project is a Django-based web application for managing and generating part 
 
 ## GitHub Repository
 📦 [GitHub Repo](https://github.com/SakshiCLondhe/django-task-api)
+## 🎥 Demo Video
+You can watch my short walkthrough video here: [Watch Video on Loom](https://www.loom.com/share/b588dc2001cd46cfa721f0aa994ea54d)
